@@ -3,7 +3,7 @@ package org.example.util;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class JSonUtil {
+public class JsonUtil {
 
     public static String toJson(Object obj) {
         if (obj instanceof Map<?, ?> map) {
